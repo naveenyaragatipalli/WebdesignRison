@@ -66,6 +66,10 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+navigitionjunary {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
 
 html {
     font-family: sans-serif;
@@ -171,6 +175,9 @@ header.header-nhh {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     border-bottom: 0;
+}
+banner-navigation[data-transparent-header="true"] {
+    background-color: transparent !important;
 }
 
 .headhesive--jbq.header-nhh {
